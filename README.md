@@ -7,7 +7,19 @@ This script will automatically configure Windows permissions for a LogRhythm sys
  
 Before running the script be sure to add your serivce account to the `settings` section. 
  
+ ```
+################################# SETTINGS ########################################
+
+#Set the name of your least privilage service account here
+$ServiceAccount = "domain\username"
+
+#If you agent is installed to non-standard location change these variables to match. 
+$InstallDir = "C:\Program Files\LogRhythm\LogRhythm System Monitor"
+$InstallReg = "HKLM:\SYSTEM\CurrentControlSet\services\scsm"
+
+#################################################################################
+ ```
  
-After the script has run you must manually add your service account to the Windows Service as normal.
+After the script has run you must manually add your service account to the LogRhythm System Monitor serivce as normal.
 
 
