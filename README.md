@@ -1,4 +1,7 @@
-# LRLeastPriv
+# LRLeastPriv 
+ 
+  ![Logo](https://www.asiapacificsecuritymagazine.com/wp-content/uploads/2015/12/log-rhythm_logo2.jpg)
+  
 This script will automatically configure Windows permissions for a LogRhythm system monitor agent running in least privilege mode. 
  
  
