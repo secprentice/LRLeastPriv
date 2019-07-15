@@ -23,3 +23,4 @@ $InstallReg = "HKLM:\SYSTEM\CurrentControlSet\services\scsm"
 After the script has run you must manually add your service account to the LogRhythm System Monitor serivce as normal.
 
 
+@piratematerial on LR Forum
