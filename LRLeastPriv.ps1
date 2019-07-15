@@ -4,10 +4,10 @@
 
 ################################# SETTINGS ########################################
 
-#Set the name of your least privilage service account here
+#Set the name of your least privilage service account here.
 $ServiceAccount = "domain\username"
 
-#If you agent is installed to non-standard location change these variables to match. 
+#If your agent is installed to non-standard location change these variables to match. 
 $InstallDir = "C:\Program Files\LogRhythm\LogRhythm System Monitor"
 $InstallReg = "HKLM:\SYSTEM\CurrentControlSet\services\scsm"
 
